@@ -94,7 +94,7 @@
                     <td><?php echo $nama; ?></td>
                     <td><?php echo $mulaisewa ?></td>
                     <td><?php echo $selesaisewa ?></td>
-                    <td><?php echo $carss ?></td>
+                    <td><?php echo $cars ?></td>
                     <td><?php echo $phone ?></td>
                     <td>
                         <?php
@@ -109,7 +109,7 @@
                     </td>
                     <td> Rp.
                         <?php
-                        if ($_POST["mobil"] == $jenismobil[0]["mobil"]) {
+                        if ($_GET["mobil"] == $jenismobil[0]["mobil"]) {
                             echo ($_POST["hari"] * $jenismobil[0]["harga"]) + $serprice;
                         } else if ($_POST["mobil"] == $jenismobil[1]["mobil"]) {
                             echo ($_POST["hari"] * $jenismobil[1]["harga"]) + $serprice;

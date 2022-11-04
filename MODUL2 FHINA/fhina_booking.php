@@ -54,7 +54,7 @@
             <div class="col-6 ps-5 pe-5 d-flex align-items-center">
                 <?php
                 if (isset($_GET["img"])) {
-                ?><img class="" width="100%" src="<?= $_GET["img"]; ?>" alt="">
+                ?><img class="" width="100%" src="<?= $_POST["img"]; ?>" alt="">
                 <?php
                 } else {
                 ?><img width="100%" src="https://www.toyota.astra.co.id/sites/default/files/2021-08/1-white.png" alt="">
