@@ -53,7 +53,7 @@
         <div class="d-flex justify-content-around">
             <div class="col-6 ps-5 pe-5 d-flex align-items-center">
                 <?php
-                if (isset($_GET["img"])) {
+                if (isset($_POST["img"])) {
                 ?><img class="" width="100%" src="<?= $_POST["img"]; ?>" alt="">
                 <?php
                 } else {
